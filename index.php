@@ -25,6 +25,8 @@
       <?php include 'web-parts/projects.php'; ?>
       <?php include 'web-parts/contact-us.php'; ?>
     </main>
+    <?php include 'web-parts/footer.php'; ?>
+
     <script src="js/front-page.js"></script>
 
 

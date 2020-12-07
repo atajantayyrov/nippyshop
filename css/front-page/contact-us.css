@@ -46,6 +46,7 @@
 }
 .np-form {
   position: relative;
+  width: 708px;
 }
 .np-form__input {
   border: 1px solid #1d1d1d;

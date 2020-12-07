@@ -1,16 +1,21 @@
 .np-projects {
   height: 333px;
   padding: 117px 0;
-  display: flex;
-  flex-wrap: wrap;
+
   background-color: #1d1d1d;
   color: #ffffff;
+}
+.np-projects__wrapper {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.np-projects__text {
+.np-projects__col3 {
   flex: 0 0 33.3333%;
   width: 33.3333%;
+}
+.np-projects__text {
   display: flex;
   flex-direction: column;
   justify-content: center;
