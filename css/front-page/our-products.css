@@ -1,0 +1,74 @@
+.np-our-products {
+  padding: 105px 0;
+}
+.np-our-products .np-container {
+  display: block;
+}
+.np-our-products__title {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.np-our-products__title h3 {
+  color: #1d1d1d;
+  font-size: 33px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.np-our-ptoducts__more {
+  letter-spacing: 1.97px;
+  color: #1d1d1d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.np-our-products__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.np-our-products__content-1 {
+  position: relative;
+
+  padding: 15px;
+  margin: -15px;
+}
+.np-our-products__content-1 img {
+  width: 570px;
+  height: 582px;
+}
+.np-our-products__text {
+  position: absolute;
+  z-index: 1;
+  color: #ffffff;
+  left: 25px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.np-our-products__text span {
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.np-our-products__content-2 {
+  flex: 0 0 50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.np-our-products__content-2__row {
+  position: relative;
+  padding-left: 15px;
+}
+
+.np-our-products__content-2__row img {
+  width: 270px;
+  height: 276px;
+}

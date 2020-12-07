@@ -21,6 +21,9 @@
 <?php include 'web-parts/header.php'; ?> 
     <main class="main">
       <?php include 'web-parts/masthead.php'; ?>
+      <?php include 'web-parts/our-products.php'; ?>
+      <?php include 'web-parts/projects.php'; ?>
+      <?php include 'web-parts/contact-us.php'; ?>
     </main>
     <script src="js/front-page.js"></script>
 

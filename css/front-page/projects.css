@@ -1,0 +1,27 @@
+.np-projects {
+  height: 333px;
+  padding: 117px 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.np-projects__text {
+  flex: 0 0 33.3333%;
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.np-projects__title {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+.np-projects__num {
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
