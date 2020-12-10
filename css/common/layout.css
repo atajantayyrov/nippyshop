@@ -3,3 +3,45 @@
   padding: 0 15px;
   margin: auto;
 }
+
+@media (max-width: 1670px) {
+  .tf-container {
+    width: 1500px;
+  }
+}
+@media (max-width: 1500px) {
+  .tf-container {
+    width: 1400px;
+  }
+}
+@media (max-width: 1400px) {
+  .tf-container {
+    /* padding: 0 25px; */
+    width: 1300px;
+  }
+}
+@media (max-width: 1300px) {
+  .tf-container {
+    width: 1140px;
+  }
+}
+@media (max-width: 1199px) {
+  .tf-container {
+    width: 960px;
+  }
+}
+@media (max-width: 991px) {
+  .tf-container {
+    width: 720px;
+  }
+}
+@media (max-width: 767px) {
+  .tf-container {
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+  .tf-container {
+    width: 100%;
+  }
+}

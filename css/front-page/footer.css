@@ -1,5 +1,4 @@
 .np-footer {
-  height: 300px;
   padding-top: 95px;
   background-color: #1d1d1d;
   color: #ffffff;
@@ -51,7 +50,7 @@
   text-decoration: none;
 }
 .np-copyright {
-  padding-top: 45px;
+  padding: 45px 0;
 }
 .np-copyright__text {
   display: flex;
