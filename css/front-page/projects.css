@@ -1,6 +1,7 @@
 .np-projects {
   height: 333px;
   padding: 117px 0;
+  display: flex;
 
   background-color: #1d1d1d;
   color: #ffffff;
@@ -14,6 +15,8 @@
 .np-projects__col3 {
   flex: 0 0 33.3333%;
   width: 33.3333%;
+  display: flex;
+  justify-content: center;
 }
 .np-projects__text {
   display: flex;
@@ -29,4 +32,39 @@
   font-family: "Open Sans", sans-serif;
   font-size: 45px;
   font-weight: bold;
+}
+@media (max-width: 1670px) {
+}
+@media (max-width: 1500px) {
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
+  .np-projects__title {
+    font-size: 14px;
+  }
+  .np-projects__num {
+    font-size: 24px;
+  }
+  .np-projects {
+    height: 270px;
+    padding: 40px 0;
+  }
+  .np-projects__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .np-projects__col3 {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }

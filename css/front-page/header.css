@@ -33,6 +33,7 @@ header {
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 .np-header {
   height: 100px;
@@ -70,10 +71,111 @@ header {
 .np-nav__link {
   font-size: 11px;
   padding-right: 33px;
+  list-style: none;
 }
 .np-nav__link a {
   font-family: "Montserrat", sans-serif;
   color: #1d1d1d;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* sdsd */
+.np-mobile-button {
+  font-size: 28px;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #2c2c2c;
+  padding-left: 30px;
+}
+.np-nav_close {
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 30px;
+  left: auto;
+  bottom: auto;
+  font-size: 20px;
+}
+.np-nav_close .np-nav__link {
+  font-size: 32px;
+  color: #f5f5f5;
+}
+
+@media (max-width: 1670px) {
+}
+@media (max-width: 1500px) {
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  .np-nav__list {
+    display: block;
+  }
+  .np-nav_close {
+    display: block;
+    font-size: 30px;
+  }
+  .np-mobile-button {
+    display: flex;
+    position: absolute;
+    right: 30px;
+  }
+  .np-nav {
+    position: fixed;
+    background-color: #f3f7f8;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    -webkit-transition: left 0.4s ease-in-out;
+    -o-transition: left 0.4s ease-in-out;
+    transition: left 0.4s ease-in-out;
+    -moz-transition: left 0.4s ease-in-out;
+    -ms-transition: left 0.4s ease-in-out;
+  }
+  .np-nav.active {
+    left: 0;
+  }
+  .np-nav__list {
+    display: FLEX;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+    justify-content: flex-start;
+  }
+  .np-nav__link {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .np-nav__link a {
+    color: #666666;
+    font-size: 30px;
+    display: block;
+    width: 100%;
+  }
+  .np-nav__link a:hover,
+  .np-nav__link a:focus {
+    color: #c5bdbd;
+    opacity: 0.6;
+  }
+  .np-nav_button {
+    width: max-content;
+    margin: auto;
+    padding: 12px 16px;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 575px) {
 }
